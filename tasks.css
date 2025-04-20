@@ -1,0 +1,73 @@
+
+/* Fonts */
+.kalam-light {
+  font-family: "Kalam", cursive;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.kalam-regular {
+  font-family: "Kalam", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.kalam-bold {
+  font-family: "Kalam", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  background-image: url(cork.jpg);
+}
+
+#forText{
+  height: 105px;
+  overflow-y: auto;
+}
+
+#title {
+  font-family: "kalam", cursive;
+  font-size: 36pt;
+  text-align: center;
+  padding-top: 15px;
+}
+
+#form {
+  background-image: url(lines.jpg);
+  padding: 30px;
+  padding-left: 60px;
+}
+
+.btnDiv {
+  display: none; /* Hide the button by default */
+}
+
+.note:hover .btnDiv {
+  display: block; /* Show the button on hover */
+}
+
+
+.note {
+  background: url(note.png);
+  background-size: cover;
+  width: 250px;
+  height: 250px;
+  animation: fadeIn 2s;
+  position: relative;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.row {
+  margin: 20px
+}
